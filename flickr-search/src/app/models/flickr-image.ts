@@ -28,7 +28,7 @@ export class FlickrImage extends Model {
   public getViews(): number { return this.views; }
   public withViews(arg: number) { this.views = arg; return this; }
 
-  public static search(tags: Array<string>, opts: ListOpts) {
+  public static search(tags: string, opts: ListOpts) {
     return this.api().flickr().search(tags, opts);
   }
 

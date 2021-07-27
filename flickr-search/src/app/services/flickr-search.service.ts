@@ -9,7 +9,7 @@ export class FlickrSearchService {
 
   constructor() { }
 
-  search(tags: Array<string>, options: ListOpts) {
+  search(tags: string, options: ListOpts) {
     return FlickrImage.search(tags, options);
   }
 
