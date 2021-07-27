@@ -1,0 +1,9 @@
+<ion-content>
+  <ion-row *ngIf="results.length" class="ion-margin ion-padding">
+    <ion-col [size]="3" *ngFor="let result of results">
+      <ion-card>
+        <img [src]=result?.getUrl() />
+      </ion-card>
+    </ion-col>
+  </ion-row>
+</ion-content>
