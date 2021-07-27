@@ -1,0 +1,6 @@
+{
+  "apiKey": "6ad82343b5f33d55812dc2208820cc2c",
+  "baseUrl": "https://www.flickr.com/services/rest/?method=flickr.photos.search",
+  "default_sorting": "interestingness-desc",
+  "extras": "date_upload,date_taken,owner_name,views,url_q"
+}
